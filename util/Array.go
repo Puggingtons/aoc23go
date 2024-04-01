@@ -9,3 +9,7 @@ func InArray(haystack []int, needle int) bool {
 
 	return false
 }
+
+func GetLast[T any](arr []T) T {
+	return arr[len(arr)-1]
+}
